@@ -56,4 +56,5 @@ attributes:
             - tower
             - vlc
             - slack
-            - mailplane
+            - ffmpgx
+            - node
