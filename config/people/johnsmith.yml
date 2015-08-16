@@ -56,5 +56,5 @@ attributes:
             - tower
             - vlc
             - slack
-            - ffmpgx
+            - ffmpegx
             - node
