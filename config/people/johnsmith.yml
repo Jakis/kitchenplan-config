@@ -1,6 +1,6 @@
 groups:
-    - bash
-    - developer
+#    - bash
+#    - developer
 recipes:
     mac_os_x:
         - sudoalt::default
@@ -20,7 +20,7 @@ attributes:
     dotfiles:
         vimusers:
             - root
-            - roderik
+            - johnsmith
         vim:
             bundle:
                 - sleuth: git://github.com/tpope/vim-sleuth.git
@@ -34,11 +34,11 @@ attributes:
         name: Roderik van der Veer
         email: roderik.van.der.veer@kunstmaan.be
     osxdefaults:
-        computername: Spektr
+        computername: wks-01
     authorization:
         sudo:
             users:
-                - roderik
+                - johnsmith
             passwordless: true
             include_sudoers_d: true
     homebrewalt:
